@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Rows",
+    "name": "Get_Row",
     "datasource": {
       "name": "Baserow",
       "pluginId": "restapi-plugin",
@@ -17,28 +17,20 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
+      "path": "/rows/table/125845/3/",
       "headers": [
         {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
+          "key": "Authorization",
+          "value": "Token OMFJnqNglXRHgaSt2nlRQBJ2iDqF6Icz"
         }
       ],
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
+          "key": "user_field_names",
+          "value": "true"
         }
       ],
-      "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -51,7 +43,8 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -61,7 +54,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "chat_Get_Rows",
+  "id": "chat_Get_Row",
   "deleted": false,
   "gitSyncId": "63a882fbbc0e8334c729b47a_63a8a952690c8f1a0335b607"
 }
