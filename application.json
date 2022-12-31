@@ -3,6 +3,14 @@
     {
       "id": "chat",
       "isDefault": true
+    },
+    {
+      "id": "Models",
+      "isDefault": false
+    },
+    {
+      "id": "ModelSelect",
+      "isDefault": false
     }
   ],
   "viewMode": false,
