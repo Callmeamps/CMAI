@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "sendRefresh",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tcallAPIS: () => {\n\t\tCreate_Completion.run();\n\t\tCreate_Row.run();\n\t\tGet_Row.run();\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_sendRefresh",
+  "deleted": false,
+  "gitSyncId": "63a882fbbc0e8334c729b47a_63b14fbfbc0e8334c72a2f5e"
+}

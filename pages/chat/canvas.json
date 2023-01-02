@@ -20,7 +20,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -37,7 +37,7 @@
                 "label"
               ],
               "topRow": 10,
-              "bottomRow": 16,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -48,9 +48,6 @@
               "dynamicTriggerPathList": [],
               "dynamicBindingPathList": [
                 {
-                  "key": "text"
-                },
-                {
                   "key": "truncateButtonColor"
                 },
                 {
@@ -58,12 +55,15 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "text"
                 }
               ],
               "leftColumn": 0,
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "{{JSON.stringify(Create_Completion.data.choices[0].text, null, 2)}}",
+              "text": "{{JSON.stringify(Create_Completion.data.choices[0].text, 2, null)}}",
               "key": "ce6027b16m",
               "isDeprecated": false,
               "rightColumn": 64,
@@ -80,7 +80,7 @@
               "originalTopRow": 10,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 13,
-              "originalBottomRow": 15,
+              "originalBottomRow": 16,
               "fontSize": "0.875rem",
               "minDynamicHeight": 5
             },
@@ -88,7 +88,7 @@
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
               "onSubmit": "{{copyToClipboard()}}",
-              "topRow": 24,
+              "topRow": 23,
               "tooltip": "Press 'Enter' to submit.",
               "labelWidth": 5,
               "type": "INPUT_WIDGET_V2",
@@ -111,7 +111,7 @@
               "version": 2,
               "isLoading": false,
               "borderRadius": "1.5rem",
-              "originalBottomRow": 29,
+              "originalBottomRow": 30,
               "widgetName": "Input1",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
@@ -121,7 +121,7 @@
                 "number",
                 "textarea"
               ],
-              "bottomRow": 30,
+              "bottomRow": 29,
               "parentRowSpace": 10,
               "autoFocus": false,
               "hideCard": false,
@@ -141,10 +141,10 @@
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "originalTopRow": 23,
+              "originalTopRow": 24,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "",
+              "defaultText": "Say this is a test",
               "minDynamicHeight": 4
             },
             {
@@ -210,7 +210,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "ButtonGroup1",
+              "widgetName": "chatButtons",
               "isCanvas": false,
               "displayName": "Button Group",
               "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
@@ -218,8 +218,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 30,
-              "bottomRow": 34,
+              "topRow": 29,
+              "bottomRow": 33,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -338,9 +338,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 29,
+              "originalTopRow": 30,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 33,
+              "originalBottomRow": 34,
               "buttonVariant": "PRIMARY"
             }
           ]

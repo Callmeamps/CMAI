@@ -11,6 +11,10 @@
     {
       "id": "ModelSelect",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
