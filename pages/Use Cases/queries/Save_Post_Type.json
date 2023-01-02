@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Use Cases",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -67,7 +67,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Save_Post_Type",
+  "id": "Use Cases_Save_Post_Type",
   "deleted": false,
   "gitSyncId": "63a882fbbc0e8334c729b47a_63b310970bc0a80b3001838a"
 }

@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_sendRefresh",
+    "pageId": "Use Cases",
+    "collectionId": "Use Cases_sendRefresh",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_sendRefresh.callAPIS",
+  "id": "Use Cases_sendRefresh.callAPIS",
   "deleted": false,
   "gitSyncId": "63a882fbbc0e8334c729b47a_63b1502dfcb7cc4992ae4b85"
 }

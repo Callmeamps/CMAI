@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Use Cases",
+    "slug": "use-cases",
     "layouts": [
       {
         "viewMode": false,
@@ -1063,7 +1063,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "ButtonGroup1",
+                      "widgetName": "ActionButtons",
                       "isCanvas": false,
                       "displayName": "Button Group",
                       "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
@@ -1297,7 +1297,7 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
-                      "widgetName": "Text5",
+                      "widgetName": "Use_Cases",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -1322,14 +1322,11 @@
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
                         }
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Create_Completion.data.model}}",
+                      "text": "Fun Use Cases",
                       "key": "kdr8bl2crb",
                       "isDeprecated": false,
                       "rightColumn": 60,
@@ -1921,7 +1918,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Get_Row",
+              "id": "Use Cases_Get_Row",
               "name": "Get_Row",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -1931,7 +1928,7 @@
           ],
           [
             {
-              "id": "Page1_Create_Completion",
+              "id": "Use Cases_Create_Completion",
               "name": "Create_Completion",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -1939,11 +1936,9 @@
                 "Input1.text"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Page1_WP_Custom_Post",
+              "id": "Use Cases_WP_Custom_Post",
               "name": "WP_Custom_Post",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -1956,14 +1951,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Use Cases",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "63a882fbbc0e8334c729b47a_63b14221b7e37c573eab10bd"
